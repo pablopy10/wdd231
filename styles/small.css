@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    color: #000;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px;
+    background: #e6e6e6;
+}
+
+.brand {
+    color: black;
+    font-size: 20px;
+}
+
+.brand img {
+    vertical-align: middle;
+}
+
+#menu-button {
+    float: right;
+}
+
+nav {
+    display: none;
+    padding-top: 10px;
+}
+
+nav.open {
+    display: block;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+.profile-picture {
+    display: block;
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.filters button {
+    margin: 3px;
+}
+
+.course-list {
+    display: grid;
+    gap: 8px;
+}
+
+.course {
+    padding: 8px;
+    border: 1px solid #999;
+}
+
+.course.completed {
+    background: #d7f0d7;
+}
+
+footer {
+    padding: 10px;
+    background: #e6e6e6;
+    text-align: center;
+}

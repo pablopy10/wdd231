@@ -1,0 +1,28 @@
+@media screen and (min-width: 700px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    nav,
+    nav.open {
+        display: flex;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .intro {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 10px;
+    }
+
+    .course-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

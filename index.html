@@ -2,10 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD231</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Paulo Barroso's WDD 231 course home page.">
+    <meta name="author" content="Paulo Barroso">
+    <title>Home | Paulo Barroso</title>
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/date.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <a class="brand" href="index.html">
+            <img src="images/logo.svg" alt="" width="40" height="40">
+            <span>Paulo Barroso</span>
+        </a>
+        <button id="menu-button" aria-label="Open menu" aria-expanded="false">☰</button>
+        <nav id="menu" aria-label="Main navigation">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="chamber/">Chamber</a>
+            <a href="final/">Final</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="intro">
+            <section>
+                <h2>About Me</h2>
+                <p>I’m Paulo Barroso. I live in Cascais, near Lisbon in Portugal, and work at OutSmart International, part of the Visma group. We make software that helps businesses manage work orders and field operations.</p>
+            </section>
+
+            <section>
+                <h2>Student Photo</h2>
+                <img class="profile-picture" src="images/paulo.jfif" alt="Paulo Barroso" width="300" height="300">
+                <p>Paulo Barroso, Portugal</p>
+            </section>
+        </div>
+
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <p>Web and Computer Programming</p>
+            <div class="filters" aria-label="Course filters">
+                <button class="selected" data-filter="all" aria-pressed="true">All Courses</button>
+                <button data-filter="WDD" aria-pressed="false">WDD Courses</button>
+                <button data-filter="CSE" aria-pressed="false">CSE Courses</button>
+            </div>
+            <p>Total credits: <span id="credit-count">0</span></p>
+            <div id="course-list" class="course-list" aria-live="polite"></div>
+            <p>Green means I completed the course.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p class="social-links">
+            <a href="https://github.com/pablopy10/wdd231" target="_blank" rel="noopener noreferrer">GH GitHub</a>
+            <a href="https://www.linkedin.com/in/paulo-barroso-b909719b/" target="_blank" rel="noopener noreferrer">in LinkedIn</a>
+        </p>
+        <p>© <span id="currentyear"></span> Paulo Barroso | Lisbon, Portugal</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
