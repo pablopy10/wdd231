@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Casa do Mar Café",
+        "category": "Coffee shop and bakery",
+        "address": "Rua das Flores 18, 2750-348 Cascais, Portugal",
+        "phone": "+351 214 801 018",
+        "website": "https://example.com/casa-do-mar",
+        "image": "casa-do-mar.svg",
+        "membershipLevel": 3,
+        "description": "Coffee, warm pastries and a sunny table to start your day."
+    },
+    {
+        "name": "Blue Door Guesthouse",
+        "category": "Guesthouse",
+        "address": "Rua do Poço Novo 42, 2750-467 Cascais, Portugal",
+        "phone": "+351 214 802 042",
+        "website": "https://example.com/blue-door",
+        "image": "blue-door.svg",
+        "membershipLevel": 2,
+        "description": "A small family-run stay close to the old town and the sea."
+    },
+    {
+        "name": "Pedal Cascais",
+        "category": "Bicycle shop and tours",
+        "address": "Avenida 25 de Abril 76, 2750-511 Cascais, Portugal",
+        "phone": "+351 214 803 076",
+        "website": "https://example.com/pedal-cascais",
+        "image": "pedal-cascais.svg",
+        "membershipLevel": 1,
+        "description": "Bikes, repairs and easy rides along the coast."
+    },
+    {
+        "name": "Little Green Garden",
+        "category": "Garden and plant shop",
+        "address": "Rua Afonso Sanches 31, 2750-282 Cascais, Portugal",
+        "phone": "+351 214 804 031",
+        "website": "https://example.com/little-green-garden",
+        "image": "little-green-garden.svg",
+        "membershipLevel": 2,
+        "description": "Plants and simple gardening help for balconies and backyards."
+    },
+    {
+        "name": "Ocean Desk Studio",
+        "category": "Coworking space",
+        "address": "Rua da Misericórdia 9, 2750-642 Cascais, Portugal",
+        "phone": "+351 214 805 009",
+        "website": "https://example.com/ocean-desk",
+        "image": "ocean-desk.svg",
+        "membershipLevel": 3,
+        "description": "A relaxed shared workspace for people with ideas and laptops."
+    },
+    {
+        "name": "Mercado da Vila Friends",
+        "category": "Local food and produce",
+        "address": "Rua Padre Moisés da Silva 9, 2750-437 Cascais, Portugal",
+        "phone": "+351 214 806 009",
+        "website": "https://example.com/mercado-vila",
+        "image": "mercado-vila.svg",
+        "membershipLevel": 1,
+        "description": "A friendly group connecting local growers and food makers."
+    },
+    {
+        "name": "Azulejo Corner",
+        "category": "Art and pottery studio",
+        "address": "Rua dos Navegantes 55, 2750-444 Cascais, Portugal",
+        "phone": "+351 214 807 055",
+        "website": "https://example.com/azulejo-corner",
+        "image": "azulejo-corner.svg",
+        "membershipLevel": 2,
+        "description": "Hand-painted tiles and beginner-friendly pottery workshops."
+    }
+]

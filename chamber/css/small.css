@@ -1,0 +1,259 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242424;
+    background: #f3f3f3;
+    font-synthesis: none;
+    --teal: #087f8c;
+    --teal-dark: #075c66;
+    --gold: #f0b84c;
+    --paper: #fff;
+    --line: #c9c9c9;
+}
+
+body {
+    min-width: 320px;
+    line-height: 1.5;
+}
+
+a {
+    color: var(--teal-dark);
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--gold);
+    outline-offset: 3px;
+}
+
+.site-header {
+    padding: 12px max(5%, calc((100% - 1100px) / 2));
+    background: var(--teal);
+    color: var(--paper);
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--paper);
+    text-decoration: none;
+}
+
+.brand img {
+    flex: none;
+}
+
+.brand span,
+.brand small {
+    display: block;
+}
+
+.brand strong {
+    font-size: 1.15rem;
+}
+
+.brand small {
+    font-size: 0.9rem;
+}
+
+#menu-button {
+    float: right;
+    min-width: 44px;
+    min-height: 44px;
+    border: 1px solid var(--paper);
+    border-radius: 3px;
+    background: transparent;
+    color: var(--paper);
+    font-size: 1.35rem;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+    clear: both;
+    padding-top: 8px;
+}
+
+nav.open {
+    display: grid;
+}
+
+nav a {
+    padding: 10px;
+    color: var(--paper);
+    text-decoration: none;
+}
+
+nav a[aria-current="page"],
+nav a:hover {
+    background: var(--teal-dark);
+}
+
+main {
+    width: min(90%, 1100px);
+    min-height: 60vh;
+    margin: 28px auto 42px;
+}
+
+.page-intro {
+    padding: 22px 18px;
+    border-left: 6px solid var(--gold);
+    background: var(--paper);
+}
+
+.eyebrow {
+    color: var(--teal-dark);
+    font-weight: 700;
+}
+
+h1 {
+    margin: 4px 0 8px;
+    font-size: clamp(1.7rem, 6vw, 2.4rem);
+    line-height: 1.15;
+}
+
+.directory {
+    margin-top: 24px;
+}
+
+.directory-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.directory-heading h2 {
+    font-size: 1.45rem;
+}
+
+.view-controls {
+    display: flex;
+    gap: 7px;
+}
+
+.view-button {
+    min-height: 42px;
+    padding: 7px 13px;
+    border: 1px solid var(--teal);
+    border-radius: 3px;
+    background: var(--paper);
+    color: var(--teal-dark);
+    cursor: pointer;
+}
+
+.view-button.selected {
+    background: var(--teal);
+    color: var(--paper);
+}
+
+.directory-status {
+    margin: 12px 0;
+}
+
+.member-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+}
+
+.member-card {
+    min-width: 0;
+    padding: 16px;
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--teal);
+    background: var(--paper);
+    overflow-wrap: anywhere;
+}
+
+.member-card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.member-card-header img {
+    width: 62px;
+    height: 62px;
+    flex: none;
+    object-fit: contain;
+    padding: 5px;
+    border: 1px solid #e4e4e4;
+    background: #fff;
+}
+
+.member-card h3 {
+    font-size: 1.12rem;
+    line-height: 1.25;
+}
+
+.member-category {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.member-details p {
+    margin: 5px 0;
+}
+
+.member-level {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    background: #f8e9c9;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.member-grid.list-view {
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+.list-view .member-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding: 12px;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.list-view .member-card:nth-child(even) {
+    background: #e9eeee;
+}
+
+.list-view .member-card-header {
+    margin: 0;
+}
+
+.list-view .member-card-header img,
+.list-view .member-category,
+.list-view .member-description {
+    display: none;
+}
+
+.site-footer {
+    display: grid;
+    gap: 18px;
+    padding: 22px 5%;
+    background: #e2e2e2;
+}
+
+.footer-contact,
+.footer-student {
+    display: grid;
+    gap: 4px;
+}
+
+.footer-contact strong {
+    font-size: 1.05rem;
+}
+
+.footer-student p:last-child {
+    overflow-wrap: anywhere;
+}

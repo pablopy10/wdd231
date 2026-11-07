@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+button,
+a {
+    font: inherit;
+}
+
+img {
+    max-width: 100%;
+}

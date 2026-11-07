@@ -1,0 +1,9 @@
+const menuButton = document.querySelector("#menu-button");
+const menu = document.querySelector("#menu");
+
+menuButton.addEventListener("click", () => {
+    menu.classList.toggle("open");
+    const isOpen = menu.classList.contains("open");
+    menuButton.setAttribute("aria-expanded", isOpen);
+    menuButton.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+});

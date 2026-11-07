@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Find friendly local businesses and chamber members in Cascais, Portugal.">
+    <meta name="author" content="Paulo Barroso">
+    <meta property="og:title" content="Member Directory | Cascais Business Circle">
+    <meta property="og:description" content="Meet the local businesses that make Cascais a great place to live and work.">
+    <meta property="og:image" content="https://pablopy10.github.io/wdd231/chamber/images/cascais-business-circle.svg">
+    <meta property="og:url" content="https://pablopy10.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <title>Member Directory | Cascais Business Circle</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/larger.css">
+    <script src="js/navigation.js" defer></script>
+    <script src="js/directory.js" defer></script>
+    <script src="js/date.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="directory.html">
+            <img src="images/cascais-business-circle.svg" alt="" width="48" height="48">
+            <span><strong>Cascais</strong><small>Business Circle</small></span>
+        </a>
+        <button id="menu-button" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
+        <nav id="menu" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html" aria-current="page">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-intro">
+            <p class="eyebrow">Good people. Local business.</p>
+            <h1>Member Directory</h1>
+            <p>Say hello to some of the businesses that make our little corner of Cascais special.</p>
+        </div>
+
+        <section class="directory" aria-labelledby="directory-title">
+            <div class="directory-heading">
+                <h2 id="directory-title">Our members</h2>
+                <div class="view-controls" role="group" aria-label="Choose directory view">
+                    <button id="grid-button" class="view-button selected" type="button" aria-pressed="true">
+                        <span aria-hidden="true">▦</span> Grid
+                    </button>
+                    <button id="list-button" class="view-button" type="button" aria-pressed="false">
+                        <span aria-hidden="true">☰</span> List
+                    </button>
+                </div>
+            </div>
+            <p id="directory-status" class="directory-status" aria-live="polite">Loading our members...</p>
+            <div id="members" class="member-grid" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-contact">
+            <strong>Cascais Business Circle</strong>
+            <span>Rua Frederico Arouca 123, 2750-355 Cascais, Portugal</span>
+            <a href="mailto:hello@cascaisbusinesscircle.pt">hello@cascaisbusinesscircle.pt</a>
+            <a href="tel:+351214820123">+351 214 820 123</a>
+        </div>
+        <div class="footer-student">
+            <p>Paulo Barroso | WDD 231</p>
+            <p>© <span id="currentyear"></span> Cascais Business Circle</p>
+            <p>Last modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
