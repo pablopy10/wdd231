@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title description">
+  <title id="title">Cascais Atlantic coast</title>
+  <desc id="description">A sunny coastal view of Cascais with whitewashed homes, a lighthouse, and the Atlantic Ocean.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#b9e8ef"/>
+      <stop offset="1" stop-color="#f8e9c9"/>
+    </linearGradient>
+    <linearGradient id="sea" x2="0" y2="1">
+      <stop stop-color="#2ca9b4"/>
+      <stop offset="1" stop-color="#087f8c"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v370H0z"/>
+  <circle cx="970" cy="112" r="52" fill="#f0b84c"/>
+  <path fill="#fff" opacity=".8" d="M120 105c16-34 60-38 83-8 26-18 65-2 69 29H106c0-10 5-17 14-21Zm530-39c13-28 50-32 69-7 22-15 54-2 57 24H617c0-8 4-14 11-17Z"/>
+  <path fill="#9ccfd0" d="M0 300c125-24 205-17 316 5 139 28 216-17 352-3 116 12 193 28 294 7 94-20 163-11 238 8v108H0z"/>
+  <path fill="#f5eee0" d="M0 345c185-23 280 10 434 7 155-3 255-47 424-25 129 16 226 37 342 10v87H0z"/>
+  <path fill="url(#sea)" d="M0 393c175-25 282 7 442 5 151-2 267-35 419-19 132 14 219 28 339 3v238H0z"/>
+  <path fill="#d9c9a7" d="M0 420c102-8 201 8 301 8 112 0 168-23 271-16v38H0zm760-11c116-10 220 9 440-2v43H760z"/>
+  <g stroke="#d7d1c5" stroke-width="4">
+    <path fill="#fffaf0" d="M153 257h143v151H153z"/>
+    <path fill="#f2d89b" d="M286 220h132v187H286z"/>
+    <path fill="#fffaf0" d="M410 268h113v137H410z"/>
+    <path fill="#e9b9a2" d="M521 238h146v165H521z"/>
+    <path fill="#fffaf0" d="M657 267h112v133H657z"/>
+    <path fill="#f3d9a8" d="M763 230h156v168H763z"/>
+  </g>
+  <g fill="#087f8c">
+    <path d="M168 279h26v34h-26zm49 0h26v34h-26zm-49 57h26v34h-26zm49 0h26v34h-26z"/>
+    <path d="M302 242h25v35h-25zm45 0h25v35h-25zm-45 58h25v35h-25zm45 0h25v35h-25z"/>
+    <path d="M426 288h23v31h-23zm41 0h23v31h-23zm-41 53h23v31h-23zm41 0h23v31h-23z"/>
+    <path d="M540 260h26v34h-26zm51 0h26v34h-26zm-51 57h26v34h-26zm51 0h26v34h-26z"/>
+    <path d="M672 286h22v30h-22zm41 0h22v30h-22zm-41 52h22v30h-22zm41 0h22v30h-22z"/>
+    <path d="M782 252h26v34h-26zm50 0h26v34h-26zm-50 56h26v34h-26zm50 0h26v34h-26z"/>
+  </g>
+  <path fill="#fffaf0" d="M877 221h53v176h-53z"/>
+  <path fill="#d35f43" d="M871 219h65l-11-18h-43z"/>
+  <path fill="#f0b84c" d="M881 247h45v17h-45z"/>
+  <path fill="#087f8c" d="M892 271h24v34h-24z"/>
+  <path fill="#fff" opacity=".58" d="M0 488c98-16 178 17 269 4 95-13 182-8 272 4 85 12 150-14 235-9 68 4 109 23 189 15 77-8 133-22 235-12v20c-94-10-157 11-244 18-88 6-135-13-205-15-85-2-149 22-219 12-106-14-179-23-272-10-97 13-171-20-260-3z"/>
+  <path fill="#4a8062" d="M80 392c5-32 16-52 29-52s24 20 29 52zm-7 0h72v8H73zM1010 392c6-40 20-67 36-67s30 27 36 67zm-9 0h90v8h-90z"/>
+</svg>
