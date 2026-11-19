@@ -59,6 +59,21 @@
         margin-top: 26px;
     }
 
+    .join-layout {
+        grid-template-columns: minmax(0, 1.3fr) minmax(260px, 0.8fr);
+        align-items: start;
+        gap: 24px;
+    }
+
+    .join-form {
+        padding: 24px;
+    }
+
+    .membership-options {
+        position: sticky;
+        top: 16px;
+    }
+
     .home-panel {
         padding: 24px;
     }
