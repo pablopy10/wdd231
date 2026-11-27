@@ -103,10 +103,48 @@
         padding-right: max(5%, calc((100% - 1100px) / 2));
         padding-left: max(5%, calc((100% - 1100px) / 2));
     }
+
+    .discover-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-areas:
+            "card1 card2"
+            "card3 card4"
+            "card5 card6"
+            "card7 card8";
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    .discover-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-areas:
+            "card1 card2"
+            "card3 card4"
+            "card5 card6"
+            "card7 card8";
+    }
 }
 
 @media screen and (min-width: 980px) {
     .member-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .discover-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-areas:
+            "card1 card2 card3 card4"
+            "card5 card6 card7 card8";
+    }
+
+    .place-card img {
+        filter: grayscale(10%);
+    }
+
+    .place-card img:hover {
+        filter: grayscale(0%) contrast(115%);
+        box-shadow: 5px 5px 0 var(--gold);
     }
 }
